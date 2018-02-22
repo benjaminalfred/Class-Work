@@ -31,5 +31,18 @@ function assert(expected, actual, message){
         console.log(message)
     }
 }
-
 assert(8, mult(2, 4), "Failed")
+
+/*_______________________________________________________________________________________________
+
+function assert(expected, actual, message = "Test"){
+    if (expected == actual){
+        console.log("🌮")
+        return true
+    }
+    console.log("💩" + message)
+}
+//function functionName(p) {...}
+function add(a, b){
+    return a + b
+}*/
